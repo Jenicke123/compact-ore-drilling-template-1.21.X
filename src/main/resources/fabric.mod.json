@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oredrillermod",
+	"version": "${version}",
+	"name": "Compact Ore Drilling",
+	"description": "jenicke123 Industries brings you compact ore drills! Just fuel them and they generate ores!",
+	"authors": [
+		"jenicke123"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oredrillermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jenicke123.oredrillermod.CompactOreDrilling"
+		],
+		"fabric-datagen": [
+			"net.jenicke123.oredrillermod.CompactOreDrillingDataGenerator"
+		],
+		"client": [
+			"net.jenicke123.oredrillermod.CompactOreDrillingClient"
+		]
+	},
+	"mixins": [
+		"oredrillermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
