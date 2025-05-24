@@ -2,6 +2,8 @@ package net.jenicke123.oredrillermod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jenicke123.oredrillermod.block.ModBlocks;
+import net.jenicke123.oredrillermod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,7 @@ public class CompactOreDrilling implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
