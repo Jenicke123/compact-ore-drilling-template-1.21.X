@@ -3,5 +3,6 @@
   "item.oredrillermod.stone_drill_bit": "Stone Ore Drill-bit",
   "item.oredrillermod.iron_drill_bit": "Iron Ore Drill-bit",
 
-  "block.oredrillermod.wooden_drill": "Wooden Drill"
+  "block.oredrillermod.wooden_drill": "Wooden Drill",
+  "block.oredrillermod.stone_drill": "Stone Drill"
 }
